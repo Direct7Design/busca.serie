@@ -1,0 +1,116 @@
+html { /*background-color: #f9f9f9;*/ background-image:url("bg_body.jpg"); }
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold);
+
+body {
+	color: #36393d;
+	font-family: "PT Sans", Helvetica, Arial, Verdana, clean, sans-serif;
+	font-size: 100%;
+	margin: 0 auto;
+	margin: 0;
+	min-width: 650px; }
+
+a,a:visited,a:active { color:#369; text-decoration: none; }
+
+a:hover { color: #4096ee; }
+
+#container {
+	font-size: 215%;
+	margin-top: 15%;
+	padding: 5px 5px 0px 5px;
+	text-align: center; }
+
+	#container p {
+		font-size: 90%;
+		line-height: 1.2em;
+		margin: 0 15px 15px 15px; }
+
+	#container img { border: 0; }
+
+	#container input[type="text"] {
+		vertical-align: middle;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		background-color: #FFF;
+		border-radius: 5px;
+		border: 1px solid #CCC;
+		color: #AAA;
+		font-family: "PT Sans", Helvetica, Arial, Verdana, clean, sans-serif;
+		padding: 5px;
+		font-size: 30px;
+		width: 9em; }
+		
+	#container select {
+		vertical-align: middle;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		background-color: #FFF;
+		border-radius: 5px;
+		border: 1px solid #CCC;
+		color: #AAA;
+		font-family: "PT Sans", Helvetica, Arial, Verdana, clean, sans-serif;
+		padding: 4px;
+		font-size: 30px; }
+		
+	#container option {
+		font-size: 30px;
+	}
+
+	#container input[disabled] { background-color: #EEE; }
+
+	#container #submit {
+		background-color: transparent;
+		border: 0;
+		color: #369;
+		cursor: pointer;
+		font-family: "PT Sans", Helvetica, Arial, Verdana, clean, sans-serif;
+		text-decoration: none; }
+
+	#container #submit[disabled] { color: #AAA; }
+
+		#container #submit[disabled]:hover { color: #AAA; }
+
+	#container #submit:hover { color: #4096ee; }
+
+#logo {
+	width: 388px;
+	height: 60px;
+	background: url("buscaserie.png") no-repeat;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+#sub {
+	color: #555;
+	font-size: 18px;
+	text-align: center; }
+
+	#sub a { font-size: 15px; }
+
+#search { display: none; }
+
+#footer {
+	bottom: 5px;
+	font-size: 14px;
+	position: fixed;
+	right: 5px; }
+
+#container table {
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+#container table tr:nth-child(odd) {
+	background: #EEE;
+}
+
+#container table tr:nth-child(even) {
+	background: #E9E9E9;
+}
+
+#container table tr:nth-child(1) { 
+	background: #DDD;
+}
+
+#container table td {
+	padding: 7px;
+}
